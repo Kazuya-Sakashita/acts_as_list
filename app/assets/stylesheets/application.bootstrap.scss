@@ -1,2 +1,9 @@
-@import 'bootstrap/scss/bootstrap';
-@import 'bootstrap-icons/font/bootstrap-icons';
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons";
+
+.card {
+  margin-bottom: 15px; /* カードの間隔を設定 */
+  padding: 20px; /* カード内のパディングを増やす */
+  background-color: #f8f9fa; /* カードの背景色を設定 */
+  border-radius: 5px; /* カードの角を丸くする */
+}
